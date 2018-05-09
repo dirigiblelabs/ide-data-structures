@@ -13,7 +13,7 @@ exports.getView = function() {
 			"id":"datastructures",
 			"name":"DataStructures",
 			"factory":"frame",
-			"region":"center-bottom",
+			"region":"center-middle",
 			"label":"Data Structures",
 			"link":"../ide-data-structures/data-structures.html"
 	};
