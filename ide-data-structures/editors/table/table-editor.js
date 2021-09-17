@@ -8,15 +8,15 @@
  * Contributors:
  *   SAP - initial API and implementation
  */
-exports.getEditor = function() {
-	var editor = {
-			"id":"table",
-			"name":"Table",
-			"factory":"frame",
-			"region":"center-top",
-			"label":"Table",
-			"link":"../ide-data-structures/editors/table/editor.html",
-			"contentTypes":["application/json+table"]
+exports.getEditor = function () {
+	let editor = {
+		"id": "table",
+		"name": "Table",
+		"factory": "frame",
+		"region": "center-top",
+		"label": "Table",
+		"link": "../ide-data-structures/editors/table/editor.html",
+		"contentTypes": ["application/json+table"]
 	};
 	return editor;
 };

@@ -8,14 +8,14 @@
  * Contributors:
  *   SAP - initial API and implementation
  */
-exports.getView = function() {
-	var view = {
-			"id":"datastructures",
-			"name":"DataStructures",
-			"factory":"frame",
-			"region":"center-middle",
-			"label":"Data Structures",
-			"link":"../ide-data-structures/data-structures.html"
+exports.getView = function () {
+	let view = {
+		"id": "datastructures",
+		"name": "DataStructures",
+		"factory": "frame",
+		"region": "center-middle",
+		"label": "Data Structures",
+		"link": "../ide-data-structures/data-structures.html"
 	};
 	return view;
 }
