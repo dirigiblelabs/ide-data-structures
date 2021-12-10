@@ -15,6 +15,4 @@ angular.module('dataStructures', [])
 			$scope.dataStructuresList = response.data;
 		});
 
-	}]).config(function ($sceProvider) {
-		$sceProvider.enabled(false);
-	});
+	}]);
