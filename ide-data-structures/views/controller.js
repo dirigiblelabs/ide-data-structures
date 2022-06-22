@@ -12,7 +12,7 @@
 const dataStructureView = angular.module('dataStructures', ['ideUI', 'ideView']);
 
 dataStructureView.config(["messageHubProvider", function (messageHubProvider) {
-	messageHubProvider.eventIdPrefix = 'access-view';
+	messageHubProvider.eventIdPrefix = 'data-structure-view';
 }]);
 
 dataStructureView.controller('DataStructuresController', ['$scope', '$http', function ($scope, $http) {
